@@ -1,11 +1,5 @@
 const persons = [
     {
-        "firstName": "Doe",
-        "lastName": "Jon",
-        "sex": "M",
-        "age": 23
-    },
-    {
         "firstName": "Jon",
         "lastName": "Doe",
         "sex": "M",

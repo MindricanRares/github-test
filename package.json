@@ -17,7 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prepush": "node branch.js",
+    "prepush": "npm create-heroku-app",
+    "create-heroku-app": "node ./branch.js",
     "test": "jest",
     "eject": "react-scripts eject"
   }

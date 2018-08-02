@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h>This is a  test7  but now will only appear after the test</h>
+        <h>This is a  test7  but now will not work becouse of failed tests</h>
         {this.state.personsData.map(personData=>{
           return(
             <p key={personData}>{personData}</p>

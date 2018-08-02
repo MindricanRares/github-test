@@ -10,7 +10,8 @@
     "react-scripts": "1.1.4"
   },
   "jest": {
-    "testURL": "http://localhost"
+    "testURL": "http://localhost",
+    "testEnvironment": "node"
   },
   "scripts": {
     "start": "react-scripts start",

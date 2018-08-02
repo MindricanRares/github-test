@@ -20,5 +20,8 @@
     "prepush": "node branch.js",
     "test": "jest",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
   }
 }

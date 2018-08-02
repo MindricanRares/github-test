@@ -1,0 +1,23 @@
+{
+  "name": "github-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2"
+  }
+}

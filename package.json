@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prepush": "node branch.js",
+    "prepush": "npm tests",
     "test": "jest",
     "eject": "react-scripts eject"
   },

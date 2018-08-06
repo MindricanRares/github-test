@@ -1,6 +1,6 @@
 const persons = [
     {
-        "firstName": "Jon",
+        "firstName": "Jony",
         "lastName": "Doe",
         "sex": "M",
         "age": 23

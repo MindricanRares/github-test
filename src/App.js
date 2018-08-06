@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <div className="App">
         <p>This is decent size Title</p>
-        <p>You should not be able to see this</p>
         {this.state.personsData.map(personData=>{
           return(
             <p key={personData}>{personData}</p>

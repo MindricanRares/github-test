@@ -3,7 +3,7 @@ const persons = [
         "firstName": "Jon",
         "lastName": "Doe",
         "sex": "M",
-        "age": 23
+        "age": 123
     },
     {
         "firstName": "Anon",

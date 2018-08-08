@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p>This is decent size Title</p>
+        <h1>This is decent size Title</h1>
         {this.state.personsData.map(personData=>{
           return(
             <p key={personData}>{personData}</p>

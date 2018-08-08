@@ -6,26 +6,26 @@ const persons = [
         "age": 23
     },
     {
-        "firstName": "Biggus",
-        "lastName": "Dikkus",
+        "firstName": "Anon",
+        "lastName": "Imus",
         "sex": "M",
         "age": 22
     },
     {
-        "firstName": "Cooler",
-        "lastName": "Deke",
+        "firstName": "Dont",
+        "lastName": "Know",
         "sex": "",
         "age": 28
     },
     {
-        "firstName": "Just",
-        "lastName": "Deke",
+        "firstName": "Dont",
+        "lastName": "Care",
         "sex": "",
         "age": 25
     },
     {
-        "firstName": "Wouldja",
-        "lastName": "Blowme",
+        "firstName": "Big",
+        "lastName": "Tim",
         "sex": "F",
         "age": 20
     },
@@ -35,12 +35,6 @@ const persons = [
         "sex": "F",
         "age": 80
     },
-    {
-        "firstName": "Ben",
-        "lastName": "Dover",
-        "sex": "M",
-        "age": 68,
-    }
 ]
 
 export function getPersonsData(){

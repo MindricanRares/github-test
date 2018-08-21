@@ -7,8 +7,33 @@ class App extends Component {
   constructor() {
     super();
     this.state ={
-      personsData: getPersonsData()
+      personsData: []
     }
+  }
+  componentDidMount(){
+    var request = require("request");
+    var options = {
+      method: 'GET',
+      url: 'https://web-workshop-server.herokuapp.com/persons',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: {
+        firstName: 'Mihai',
+        lastName: 'M',
+        sex: 'male',
+        age: 40
+      },
+      json: true
+    };
+
+    request(options,(error, response, body)=> {
+      if (error) throw new Error(error);
+      this.setState({
+        personsData:getPersonsData(body)
+      });
+    });
+
   }
 
   render() {
